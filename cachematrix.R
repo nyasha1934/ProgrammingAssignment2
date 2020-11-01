@@ -1,4 +1,4 @@
-## This function creates a "square invertible matrix" object that can cache its inverse
+# This function creates a "square invertible matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function returns the inverse of the "matrix" returned by 'makeCacheMatrix()'
+# This function returns the inverse of the "matrix" returned by 'makeCacheMatrix()'
 
 cacheSolve <- function(x, ...) {
         inv <- x$getInverse()
